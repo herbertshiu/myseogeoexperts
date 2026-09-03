@@ -21,6 +21,6 @@
 - [x] Choose and implement a Vercel strategy that preserves the server-side article summary endpoint, or document the static-only limitation clearly.
 - [x] Verify the final Vercel strategy end to end before checkpointing.
 
-- [ ] Run a Vercel-equivalent preview and request a deep article URL to confirm SPA fallback.
-- [ ] Verify `/api/trpc/articles.summarize` reaches the serverless handler through the final rewrite configuration.
-- [ ] Re-run end-to-end homepage, deep article, and AI summary checks against the final Vercel setup.
+- [x] Run a Vercel-equivalent preview and request a deep article URL to confirm SPA fallback.
+- [x] Verify `/api/trpc/articles.summarize` reaches the serverless handler through the final rewrite configuration.
+- [x] Re-run end-to-end homepage, deep article, and AI summary checks against the final Vercel setup.
