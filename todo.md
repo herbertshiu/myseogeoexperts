@@ -13,6 +13,10 @@
 - [x] Force the article summary endpoint to fail once and verify the localized error state and retry action in both English and Traditional Chinese.
 - [x] Force or simulate a delayed article summary response and confirm the loading state renders correctly in both English and Traditional Chinese.
 
-- [ ] Inspect the committed package scripts, Vercel settings, and repository output paths.
-- [ ] Add a Vercel-compatible build command and static output configuration if needed.
-- [ ] Verify the configured build produces deployable files and preserves SPA route fallback behavior.
+- [x] Inspect the committed package scripts, Vercel settings, and repository output paths.
+- [x] Add a Vercel-compatible build command and static output configuration if needed.
+- [x] Verify the configured build produces deployable files and preserves SPA route fallback behavior.
+
+- [ ] Verify a deep article URL resolves correctly under the Vercel-style static output.
+- [ ] Choose and implement a Vercel strategy that preserves the server-side article summary endpoint, or document the static-only limitation clearly.
+- [ ] Verify the final Vercel strategy end to end before checkpointing.
