@@ -17,6 +17,10 @@
 - [x] Add a Vercel-compatible build command and static output configuration if needed.
 - [x] Verify the configured build produces deployable files and preserves SPA route fallback behavior.
 
-- [ ] Verify a deep article URL resolves correctly under the Vercel-style static output.
-- [ ] Choose and implement a Vercel strategy that preserves the server-side article summary endpoint, or document the static-only limitation clearly.
-- [ ] Verify the final Vercel strategy end to end before checkpointing.
+- [x] Verify a deep article URL resolves correctly under the Vercel-style static output.
+- [x] Choose and implement a Vercel strategy that preserves the server-side article summary endpoint, or document the static-only limitation clearly.
+- [x] Verify the final Vercel strategy end to end before checkpointing.
+
+- [ ] Run a Vercel-equivalent preview and request a deep article URL to confirm SPA fallback.
+- [ ] Verify `/api/trpc/articles.summarize` reaches the serverless handler through the final rewrite configuration.
+- [ ] Re-run end-to-end homepage, deep article, and AI summary checks against the final Vercel setup.
