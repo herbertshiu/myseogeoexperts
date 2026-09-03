@@ -27,7 +27,7 @@ export const articles: Article[] = [
       "A Hong Kong customer can move from a Cantonese query to a map result to a WhatsApp conversation in the time it takes an overseas playbook to load. Local visibility is a connected system, not a list of directory submissions.",
     readTime: "8 min read",
     date: "18 Sep 2026",
-    image: "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&w=1400&q=85",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hong_Kong_Victoria_Harbour_03.jpg/1280px-Hong_Kong_Victoria_Harbour_03.jpg",
     accent: "vermilion",
     author: "The Desk",
     sections: [

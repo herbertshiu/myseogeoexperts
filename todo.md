@@ -28,3 +28,11 @@
 - [x] Replace the non-Hong-Kong homepage hero reference with a clearly Hong Kong-specific visual.
 - [x] Verify the new hero image renders correctly in the homepage build and live-hosting source.
 - [x] Save a checkpoint for the visual correction and sync the source repository if needed.
+
+- [x] Replace the remaining Singapore-looking article-card image with a clearly Hong Kong-specific image URL.
+- [x] Verify no visible article-card source still uses the disputed image and confirm the new asset loads.
+- [x] Run the production checks, sync GitHub, and save a checkpoint for the correction.
+
+- [ ] Sync the article-card image replacement to GitHub and confirm the pushed commit includes the updated article library.
+- [ ] Save a new checkpoint after the article-card image correction is synced.
+- [ ] After redeploy, verify the live index no longer shows the disputed image URL and the Hong Kong replacement renders correctly.
