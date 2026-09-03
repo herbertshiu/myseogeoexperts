@@ -24,3 +24,7 @@
 - [x] Run a Vercel-equivalent preview and request a deep article URL to confirm SPA fallback.
 - [x] Verify `/api/trpc/articles.summarize` reaches the serverless handler through the final rewrite configuration.
 - [x] Re-run end-to-end homepage, deep article, and AI summary checks against the final Vercel setup.
+
+- [x] Replace the non-Hong-Kong homepage hero reference with a clearly Hong Kong-specific visual.
+- [x] Verify the new hero image renders correctly in the homepage build and live-hosting source.
+- [x] Save a checkpoint for the visual correction and sync the source repository if needed.
